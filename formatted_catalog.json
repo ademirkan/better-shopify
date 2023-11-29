@@ -1,0 +1,46 @@
+{
+    "Cubed": {
+        "TITLE": "Demo Cubed Sofa",
+        "DESCRIPTION": "this is a demo product description",
+        "OPTIONS": ["Fabric", "Leg Finish"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-744002521-3-2": {
+                "TITLE": "CUBED SOFA 02, DARK WOOD, FULL",
+                "COMPARE_AT_PRICE": 2000,
+                "PRICE": 1800,
+                "COST": 1000,
+                "SKU": "95-744002521-3-2",
+                "OPTIONS": ["521", "Dark Wood"],
+                "LBS": 200
+            },
+            "95-744002527-3-2": {
+                "TITLE": "CUBED SOFA 02, DARK WOOD, FULL",
+                "COMPARE_AT_PRICE": 2000,
+                "PRICE": 1800,
+                "COST": 1000,
+                "SKU": "95-744002527-3-2",
+                "OPTIONS": ["527", "Dark Wood"],
+                "LBS": 200
+            },
+            "95-744002521-6-2": {
+                "TITLE": "CUBED SOFA 02, ALUMINUM, FULL",
+                "COMPARE_AT_PRICE": 2000,
+                "PRICE": 1800,
+                "COST": 1000,
+                "SKU": "95-744002521-6-2",
+                "OPTIONS": ["521", "Aluminium"],
+                "LBS": 200
+            },
+            "95-744002527-6-2": {
+                "TITLE": "CUBED SOFA 02, ALUMINUM, FULL",
+                "COMPARE_AT_PRICE": 2000,
+                "PRICE": 1800,
+                "COST": 1000,
+                "SKU": "95-744002527-6-2",
+                "OPTIONS": ["527", "Aluminium"],
+                "LBS": 200
+            }
+        }
+    }
+}

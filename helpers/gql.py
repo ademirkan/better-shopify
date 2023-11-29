@@ -3,6 +3,79 @@ import os
 import requests
 from dotenv import load_dotenv
 
+# DUBLEXO_DEMO_QUERY = {
+#     "input": {
+#         "customProductType": "",
+#         "descriptionHtml": "This is a product description in the form of descriptionHtml",
+#         "metafields": [
+#             {
+#                 "key": "signature_variants",
+#                 "namespace": "custom",
+#                 "type": "json",
+#                 "value": '[]',
+#             }
+#         ],
+#         "options": ["Fabric", "Base"],
+#         "title": "Dublexo Eik TEST TEST TEST",
+#         "variants": [
+#             {
+#                 "compareAtPrice": "2000",
+#                 "inventoryItem": {"cost": "500", "tracked": True},
+#                 "inventoryQuantities": [
+#                     {
+#                         "availableQuantity": 1000,
+#                         "locationId": "gid://shopify/Location/85320270117",
+#                     }
+#                 ],
+#                 "metafields": [
+#                     {
+#                         "key": "variant_images",
+#                         "namespace": "custom",
+#                         "type": "json",
+#                         "value": "",   
+#                     }
+#                 ],
+#                 "options": ["White", "Wood"],
+#                 "position": 1,  # make defaults come before customs
+#                 "price": "1850",
+#                 "requiresShipping": True,
+#                 "sku": "sku-1",
+#                 "title": "Dublexo Eik Red Wood",
+#                 "weight": 1000,
+#                 "weightUnit": "POUNDS",
+#             },
+#             {
+#                 "compareAtPrice": "2001",
+#                 "inventoryItem": {"cost": "500", "tracked": True},
+#                 "inventoryQuantities": [
+#                     {
+#                         "availableQuantity": 1000,
+#                         "locationId": "gid://shopify/Location/85320270117",
+#                     }
+#                 ],
+#                 "metafields": [
+#                     {
+#                         "key": "variant_media",
+#                         "namespace": "custom",
+#                         "type": "json",
+#                         "value": "", 
+#                     }
+#                 ],
+#                 "options": ["Gray", "Dark wood"],
+#                 "position": 1,  # make defaults come before customs
+#                 "price": "1850",
+#                 "requiresShipping": True,
+#                 "sku": "test1",
+#                 "title": "Dublexo Eik darkwood",
+#                 "weight": 1000,
+#                 "weightUnit": "POUNDS",
+#             },
+#         ],
+#         "vendor": "Innovation",
+#     },  
+#     "media": construct_media(DUBLEXO_DEMO_CONFIG)
+# }
+
 # Environment variables
 load_dotenv()
 SHOPIFY_ACCESS_TOKEN = os.getenv("SHOPIFY_ACCESS_TOKEN")
