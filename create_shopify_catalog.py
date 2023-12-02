@@ -3,22 +3,36 @@ from helpers import run_shopify_query
 from helpers import CREATE_PRODUCT_QUERY
 
 # Upload catalog to Shopify
-def create_shopify_catalog(catalog_json, media_json):
-    for product_key in catalog_json:
-        # Create product
-        product_config = catalog_json[product_key]
-        product_query_input = construct_product_query_input(product_config, media_json[product_key])
-        product_response = run_shopify_query(CREATE_PRODUCT_QUERY, product_query_input)
+def create_shopify_catalog(product_catalog, local_product_media_map):
+    for product_key in product_catalog:
+        product_config = product_catalog[product_key]
+
+        ## STAGE MEDIA
         
-        # Error handling
-        if product_response["data"]["productCreate"]["userErrors"]:
-            print("Error creating product: " + product_key)
-            print(product_response["data"]["productCreate"]["userErrors"])
-            return
+
+        ## CREATE PRODUCT + VARIANTS
+        product_query_input = construct_create_product_query_input(product_config)
+        product_response = run_shopify_query(CREATE_PRODUCT_QUERY, product_query_input)
+
+        print("NOT HERE")
+        print(product_response)
+        print("HERE")
+        print(staged_product_media_map)
+        
+        ## HOST STAGED MEDIA
+        # Host all images with fileCreate
+
+
+
+
+        # Host all videos in product media
+        pass
+
+        # APPEND 
 
 
 # Construct the product query input
-def construct_product_query_input(product_config, media_json):
+def construct_create_product_query_input(product_config):
     output = {"input": {}, "media": []}
 
     # Add input fields
@@ -33,12 +47,12 @@ def construct_product_query_input(product_config, media_json):
             "type": "json",
             "value": '[]',
         },
-        {
-            "key": "media_manifesto",
-            "namespace": "custom",
-            "type": "json",
-            "value": json.dumps(media_json),
-        },
+        # {
+        #     "key": "media_manifesto",
+        #     "namespace": "custom",
+        #     "type": "json",
+        #     "value": json.dumps(staged_variant_media_map),
+        # },
 
     ]
     output["input"]["variants"] = []

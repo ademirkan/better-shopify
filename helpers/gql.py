@@ -98,30 +98,42 @@ def run_shopify_query(query, variables={}):
 CREATE_PRODUCT_QUERY = """
     mutation CreateProduct($input: ProductInput!, $media: [CreateMediaInput!]) {
         productCreate(input: $input, media: $media) {
-        product {
-          id
-          title
-          options {
-            name
-            values
-          }
-          media(first: 10) {
-            nodes {
-                alt
-                mediaContentType
-                preview {
-                    status
+            product {
+                id
+                title
+                options {
+                    name
+                    values
+                }
+                media(first: 10) {
+                    nodes {
+                        alt
+                        mediaContentType
+                        preview {
+                            status
+                        }
+                    }
+                }
+                variants(first: 250) {
+                    edges {
+                        node {
+                            id
+                            title
+                            price
+                            inventoryQuantity
+                            sku
+                        }
+                    }
                 }
             }
+            userErrors {
+                field
+                message
+            }
         }
-        }
-        userErrors {
-          field
-          message
-        }
-      }
     }
-    """
+"""
+
 
 # Shopify GraphQL API query for creating a variant
 CREATE_VARIANT_QUERY = """

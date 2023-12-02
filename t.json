@@ -1,0 +1,68 @@
+[
+    {
+        "mediaContentType": "VIDEO",
+        "sources": [
+            {
+                "url": "https://cdn.shopify.com/videos/c/vp/918b05bbb56943e38f26adb42bb00072/918b05bbb56943e38f26adb42bb00072.HD-1080p-7.2Mbps-21438897.mp4",
+                "mimeType": "video/mp4",
+                "format": "mp4",
+                "height": 1080,
+                "width": 1920
+            },
+            {
+                "url": "https://cdn.shopify.com/videos/c/vp/918b05bbb56943e38f26adb42bb00072/918b05bbb56943e38f26adb42bb00072.m3u8",
+                "mimeType": "application/x-mpegURL",
+                "format": "m3u8",
+                "height": 1080,
+                "width": 1920
+            },
+            {
+                "url": "https://cdn.shopify.com/videos/c/vp/918b05bbb56943e38f26adb42bb00072/918b05bbb56943e38f26adb42bb00072.HD-720p-4.5Mbps-21438897.mp4",
+                "mimeType": "video/mp4",
+                "format": "mp4",
+                "height": 720,
+                "width": 1280
+            },
+            {
+                "url": "https://cdn.shopify.com/videos/c/vp/918b05bbb56943e38f26adb42bb00072/918b05bbb56943e38f26adb42bb00072.SD-480p-1.5Mbps-21438897.mp4",
+                "mimeType": "video/mp4",
+                "format": "mp4",
+                "height": 480,
+                "width": 852
+            }
+        ]
+    },
+    {
+        "mediaContentType": "IMAGE",
+        "image": {
+            "__typename": "Image",
+            "id": "gid://shopify/ImageSource/36377200591141",
+            "url": "https://cdn.shopify.com/s/files/1/0778/1053/2645/files/6_72fa0ba1-232f-47fd-a9cd-128e01bf046e.jpg?v=1701482550",
+            "altText": "",
+            "width": 3190,
+            "height": 273
+        }
+    },
+    {
+        "mediaContentType": "IMAGE",
+        "image": {
+            "__typename": "Image",
+            "id": "gid://shopify/ImageSource/36377218318629",
+            "url": "https://cdn.shopify.com/s/files/1/0778/1053/2645/files/1_3c8680b9-a560-4472-b6a2-e3f6f770db7a.jpg?v=1701482614",
+            "altText": "",
+            "width": 720,
+            "height": 550
+        }
+    },
+    {
+        "mediaContentType": "IMAGE",
+        "image": {
+            "__typename": "Image",
+            "id": "gid://shopify/ImageSource/36377219301669",
+            "url": "https://cdn.shopify.com/s/files/1/0778/1053/2645/files/2_c76b64a5-7616-41d8-9950-56a3fff26b18.jpg?v=1701482617",
+            "altText": "",
+            "width": 720,
+            "height": 550
+        }
+    }
+]
