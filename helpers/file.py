@@ -1,9 +1,8 @@
 import os
-import json
 import time
 import requests
 from urllib.parse import urlparse
-from .gql import run_shopify_query
+from .gql import STAGE_QUERY, run_shopify_query
 import mimetypes
 from urllib.parse import urlparse
 import tempfile
@@ -152,20 +151,7 @@ def file_stage(src, filename):
     file_size = str(os.path.getsize(filepath))
 
     # GraphQL mutation for staging the file upload
-    STAGE_QUERY = """
-    mutation stagedUploadsCreate($input: [StagedUploadInput!]!) {
-        stagedUploadsCreate(input: $input) {
-            stagedTargets {
-                url
-                resourceUrl
-                parameters {
-                    name
-                    value
-                }
-            }
-        }
-    }
-    """
+    
 
     STAGE_INPUT = {
         "input": [

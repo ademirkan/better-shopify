@@ -9,3 +9,5 @@ from .file import is_img
 from .gql import run_shopify_query
 from .gql import CREATE_PRODUCT_QUERY
 from .gql import CREATE_VARIANT_QUERY
+from .gql import UPDATE_VARIANT_QUERY
+from .gql import STAGE_QUERY

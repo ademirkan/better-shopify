@@ -1,68 +1,48 @@
 [
+    { "type": "IMAGE", "value": "./Test Mini Media/Cubed/Shared Media/6.jpg" },
     {
-        "mediaContentType": "VIDEO",
-        "sources": [
-            {
-                "url": "https://cdn.shopify.com/videos/c/vp/918b05bbb56943e38f26adb42bb00072/918b05bbb56943e38f26adb42bb00072.HD-1080p-7.2Mbps-21438897.mp4",
-                "mimeType": "video/mp4",
-                "format": "mp4",
-                "height": 1080,
-                "width": 1920
-            },
-            {
-                "url": "https://cdn.shopify.com/videos/c/vp/918b05bbb56943e38f26adb42bb00072/918b05bbb56943e38f26adb42bb00072.m3u8",
-                "mimeType": "application/x-mpegURL",
-                "format": "m3u8",
-                "height": 1080,
-                "width": 1920
-            },
-            {
-                "url": "https://cdn.shopify.com/videos/c/vp/918b05bbb56943e38f26adb42bb00072/918b05bbb56943e38f26adb42bb00072.HD-720p-4.5Mbps-21438897.mp4",
-                "mimeType": "video/mp4",
-                "format": "mp4",
-                "height": 720,
-                "width": 1280
-            },
-            {
-                "url": "https://cdn.shopify.com/videos/c/vp/918b05bbb56943e38f26adb42bb00072/918b05bbb56943e38f26adb42bb00072.SD-480p-1.5Mbps-21438897.mp4",
-                "mimeType": "video/mp4",
-                "format": "mp4",
-                "height": 480,
-                "width": 852
-            }
+        "type": "IMAGE",
+        "value": "./Test Mini Media/Cubed/95-744002521-3-2/1.jpeg"
+    },
+    {
+        "type": "360_IMG",
+        "value": [
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_1.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_10.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_11.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_12.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_13.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_14.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_15.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_16.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_17.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_18.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_19.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_2.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_20.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_21.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_22.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_23.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_24.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_25.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_26.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_27.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_28.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_29.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_3.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_30.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_31.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_32.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_4.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_5.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_6.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_7.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_8.jpeg",
+            "./Test Mini Media/Cubed/95-744002521-3-2/360_position_1/95-744002XXX-Y-2_9.jpeg"
         ]
     },
     {
-        "mediaContentType": "IMAGE",
-        "image": {
-            "__typename": "Image",
-            "id": "gid://shopify/ImageSource/36377200591141",
-            "url": "https://cdn.shopify.com/s/files/1/0778/1053/2645/files/6_72fa0ba1-232f-47fd-a9cd-128e01bf046e.jpg?v=1701482550",
-            "altText": "",
-            "width": 3190,
-            "height": 273
-        }
-    },
-    {
-        "mediaContentType": "IMAGE",
-        "image": {
-            "__typename": "Image",
-            "id": "gid://shopify/ImageSource/36377218318629",
-            "url": "https://cdn.shopify.com/s/files/1/0778/1053/2645/files/1_3c8680b9-a560-4472-b6a2-e3f6f770db7a.jpg?v=1701482614",
-            "altText": "",
-            "width": 720,
-            "height": 550
-        }
-    },
-    {
-        "mediaContentType": "IMAGE",
-        "image": {
-            "__typename": "Image",
-            "id": "gid://shopify/ImageSource/36377219301669",
-            "url": "https://cdn.shopify.com/s/files/1/0778/1053/2645/files/2_c76b64a5-7616-41d8-9950-56a3fff26b18.jpg?v=1701482617",
-            "altText": "",
-            "width": 720,
-            "height": 550
-        }
+        "type": "IMAGE",
+        "value": "./Test Mini Media/Cubed/95-744002521-3-2/2.jpeg"
     }
 ]

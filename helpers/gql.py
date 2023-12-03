@@ -168,3 +168,34 @@ CREATE_VARIANT_QUERY = """
     }
   }
 """
+
+# Shopify GraphQL API query for updating a variant
+UPDATE_VARIANT_QUERY = """
+            mutation productVariantUpdate($input: ProductVariantInput!) {
+                productVariantUpdate(input: $input) {
+                    productVariant {
+                        id
+                    }
+                    userErrors {
+                        field
+                        message
+                    }
+                }
+            }
+        """
+
+# Shopify GraphQL API query for creating a staged upload
+STAGE_QUERY = """
+    mutation stagedUploadsCreate($input: [StagedUploadInput!]!) {
+        stagedUploadsCreate(input: $input) {
+            stagedTargets {
+                url
+                resourceUrl
+                parameters {
+                    name
+                    value
+                }
+            }
+        }
+    }
+    """
