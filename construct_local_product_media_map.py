@@ -1,7 +1,5 @@
 import os
 import json
-from helpers import file_stage
-
 
 def construct_local_product_media_map(media_folder_path):
     media_manifesto = {}

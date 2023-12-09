@@ -30,7 +30,6 @@ def fetch_file_by_id(id):
             ... on MediaImage {
                 mediaContentType
                 image {
-                    __typename
                     id
                     url
                     altText
@@ -40,15 +39,26 @@ def fetch_file_by_id(id):
             }
 
             ... on Video {
-            mediaContentType
-            sources {
-                url
-                mimeType
-                format
-                height
-                width
+                mediaContentType
+                id
+                alt
+                preview {
+                    image {
+                        id
+                        url
+                        altText
+                        width
+                        height
+                    }
+                }
+                sources {
+                    url
+                    mimeType
+                    format
+                    height
+                    width
+                }
             }
-        }
         }
     }
     """
@@ -64,7 +74,6 @@ def fetch_file_by_id(id):
         time.sleep(sleep_time)
 
         data = run_shopify_query(get_file_query, {"id": formatted_id})
-        print(data)
         
         # Check for errors
         if 'errors' in data:
@@ -120,8 +129,6 @@ def get_mimetype_and_resource(path):
     # This is a simplification and may not always be correct.
     mime_type, _ = mimetypes.guess_type(path)
     if mime_type is None:
-        print("HERE")
-        print(path)
         raise Exception("Could not determine file type")
 
     # Map the MIME type to the appropriate resource type for Shopify.
