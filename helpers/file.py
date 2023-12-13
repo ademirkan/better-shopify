@@ -24,7 +24,7 @@ def is_video(src):
 # Given a file ID, poll Shopify for the file URL. Return the query.
 def fetch_file_by_id(id):
     # GraphQL query to fetch file information
-    get_file_query = """
+    FILE_QUERY = """
     query($id: ID!) {
         node(id: $id) {
             ... on MediaImage {
@@ -73,7 +73,7 @@ def fetch_file_by_id(id):
         # Wait a bit before trying again
         time.sleep(sleep_time)
 
-        data = run_shopify_query(get_file_query, {"id": formatted_id})
+        data = run_shopify_query(FILE_QUERY, {"id": formatted_id})
         
         # Check for errors
         if 'errors' in data:

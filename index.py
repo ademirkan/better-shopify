@@ -33,6 +33,18 @@ for product_key in product_catalog:
                 "type": "json",
                 "value": '[]',
             },
+            {
+                "key": "additional_info",
+                "namespace": "custom",
+                "type": "json",
+                "value": json.dumps(product_config["ADDITIONAL_INFO"]),
+            },
+            {
+                "key": "shipping",
+                "namespace": "custom",
+                "type": "json",
+                "value": json.dumps(product_config["SHIPPING"]),
+            }
         ]
         output["input"]["variants"] = []
 
@@ -73,7 +85,7 @@ for product_key in product_catalog:
 
         hosted_variant_media = []
         for media in variant_media_map:
-            hosted_variant_media.append(media.get_hosted_media())
+            hosted_variant_media.append(media.create())
             
 
         

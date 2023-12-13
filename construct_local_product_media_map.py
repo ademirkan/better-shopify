@@ -2,7 +2,7 @@ import os
 import json
 
 def construct_local_product_media_map(media_folder_path):
-    media_manifesto = {}
+    media_map = {}
 
     global num_total_files
     global num_processed_files
@@ -22,7 +22,7 @@ def construct_local_product_media_map(media_folder_path):
         if not os.path.isdir(product_path):
             continue
 
-        media_manifesto[product_id] = {}
+        media_map[product_id] = {}
         shared_media_path = os.path.join(product_path, "Shared Media")
         shared_media = {}
 
@@ -34,14 +34,14 @@ def construct_local_product_media_map(media_folder_path):
         for variant_sku in os.listdir(product_path):
             variant_path = os.path.join(product_path, variant_sku)
             if os.path.isdir(variant_path) and variant_sku != "Shared Media":
-                media_manifesto[product_id][variant_sku] = shared_media.get(variant_sku, [])
+                media_map[product_id][variant_sku] = shared_media.get(variant_sku, [])
                 for file_or_dir in os.listdir(variant_path):
                     file_or_dir_path = os.path.join(variant_path, file_or_dir)
                     media_obj = process_file(file_or_dir_path, file_or_dir)
                     if media_obj:
-                        media_manifesto[product_id][variant_sku].append(media_obj)
+                        media_map[product_id][variant_sku].append(media_obj)
 
-    return media_manifesto
+    return media_map
 
 def process_shared_media(shared_media_path):
     shared_media = {}

@@ -41,6 +41,48 @@
                 "OPTIONS": ["527", "Aluminium"],
                 "LBS": 200
             }
+        },
+        "ADDITIONAL_INFO": [
+            {
+                "Details": {
+                    "contentType": "HTML",
+                    "content": "<ul><li>Bed size: Full</li><li>Legs in dark wood or aluminum</li><li>Comfort: Pocket spring</li><li>Matt black steel frame</li><li>Mat black steel frame</li><li>Headrest: Optional</li></ul>"
+                }
+            },
+            {
+                "Dimensions": {
+                    "contentType": "HTML",
+                    "content": "<ul><li> Width: 79\"</li><li>Depth: 37\"</li><li>Height: 31\"</li><li>Seat Height: 16\"</li><li>Bed Size: 55\" x 79\"</li></ul>"
+                }
+            },
+            {
+                "5 Year Warranty": {
+                    "contentType": "HTML",
+                    "content": "5 year limited warranty on all Innovation Living products. Warranty covers any defects in materials or workmanship. Warranty does not cover regular wear and tear or misuse of product. To learn more about Innovation Living's warranty, please click <a href=\"https://www.innovationliving.us/Admin/Public/DWSDownload.aspx?File=%2fFiles%2fFiles%2fInnovationLiving%2fWarranty%2fLimited-Warranty-USA.pdf\" target=\"_blank\">here</a>."
+                }
+            }
+        ],
+        "SHIPPING": {
+            "95-744002521-3-2": {
+                "status": "Ready-to-Ship",
+                "time": "2-4 weeks",
+                "whiteGlove": true
+            },
+            "95-744002527-3-2": {
+                "status": "Made-to-Order",
+                "time": "4-6 weeks",
+                "whiteGlove": true
+            },
+            "95-744002521-6-2": {
+                "status": "Ready-to-Ship",
+                "time": "2-4 weeks",
+                "whiteGlove": true
+            },
+            "95-744002527-6-2": {
+                "status": "Made-to-Order",
+                "time": "4-6 weeks",
+                "whiteGlove": false
+            }
         }
     }
 }
