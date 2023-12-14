@@ -143,15 +143,27 @@ class Image360(Media):
         self.local_media = []
         self.staged_urls = []
         self.hosted_images = []
+        self.preview_index = 0
         self.media_type = "360_IMG"
 
         # Sort by removing extension, non-digit characters, then sort by that number
-        for img_file in sorted(os.listdir(folder_path), key=lambda x: int(''.join(filter(str.isdigit, os.path.splitext(x)[0])))):
+        print(folder_path)
+        for img_file in sorted(os.listdir(folder_path), key=lambda x: int(''.join(filter(str.isdigit, os.path.splitext(x)[0]))) if any(char.isdigit() for char in x) else float('inf')):
             if img_file.lower().endswith(('.png', '.jpg', '.jpeg')):
                 img_path = os.path.join(folder_path, img_file)
                 self.local_media.append(Image(img_path))
             else:
-                raise Exception("360 image folder contains non-image files")
+                continue
+        
+        ## Open index.json
+        index = {}
+        with open(os.path.join(folder_path, 'index.json'), 'r') as file:
+            index = json.load(file)
+        
+        if not index or not index["previewIndex"]:
+            raise Exception("360 image folder does not contain index.json or previewIndex")
+        
+        self.preview_index = index["previewIndex"]
     
     def get_media_type(self):
         return self.media_type
@@ -181,7 +193,7 @@ class Image360(Media):
         for i in range(len(self.local_media)):
             sources.append(self.local_media[i].create())
         ## Process (create the object front-end needs)
-        processed_media_object = {"mediaContentType": self.media_type, "preview": sources[0]["image"], "sources": sources}
+        processed_media_object = {"mediaContentType": self.media_type, "previewIndex": self.preview_index, "sources": sources}
 
         self.hosted_images = processed_media_object
         return self.hosted_images
