@@ -4,7 +4,7 @@ from helpers import UPDATE_VARIANT_QUERY
 from helpers import run_shopify_query
 from media_manager import MediaManager
 
-MEDIA_FOLDER_PATH = "./Test Mini Media"
+MEDIA_FOLDER_PATH = "./Test Cubed Media"
 PRODUCT_CATALOG_PATH = "./formatted_catalog.json"
 
 product_media_map = MediaManager(MEDIA_FOLDER_PATH).get_product_media_map()
@@ -73,6 +73,7 @@ for product_key in product_catalog:
             output["input"]["variants"].append(variant)
 
         return output
+    
 
     product_query_input = construct_product_create_query_input(product_config)
     product_response = run_shopify_query(CREATE_PRODUCT_QUERY, product_query_input)
@@ -86,9 +87,8 @@ for product_key in product_catalog:
         hosted_variant_media = []
         for media in variant_media_map:
             hosted_variant_media.append(media.create())
-            
-
         
+        print(hosted_variant_media)
         # Add variant media to variant metafield
         variant_media_metafield = {
             "key": "media_map",

@@ -1,4 +1,4 @@
 .env
-Test Cubed Media/
-Test Mini Media/
 helpers/__pycache__/
+cache/
+Media/

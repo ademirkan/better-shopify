@@ -1,7 +1,8 @@
 from abc import ABC, abstractmethod 
 import os
 from helpers import file_stage
-from helpers.file import file_create
+from helpers.cache import embed_shopify_id_in_file, fetch_shopify_id_from_file
+from helpers.file import fetch_file_by_id, file_create
 import json
 
 # import __hosted_media_cache.json as MEDIA_CACHE
@@ -40,10 +41,16 @@ class Image(Media):
         self.shopify_image = None
         self.media_type = "IMAGE"
 
+        shopify_id = fetch_shopify_id_from_file(self.local_image_path)
+
         ## Check if cached
-        if self.local_image_path in HOSTED_MEDIA_CACHE:
-            self.shopify_image = HOSTED_MEDIA_CACHE[self.local_image_path]
-        
+        if shopify_id and shopify_id in HOSTED_MEDIA_CACHE:
+            self.shopify_image = HOSTED_MEDIA_CACHE[shopify_id]
+        elif shopify_id:
+            self.shopify_image = fetch_file_by_id(shopify_id)
+            HOSTED_MEDIA_CACHE[shopify_id] = self.shopify_image
+            
+
     def get_media_type(self):
         return self.media_type
     
@@ -51,6 +58,9 @@ class Image(Media):
         ## Check if already staged
         if self.staged_url:
             return self.staged_url
+        
+        if self.shopify_image:
+            raise Exception("Image already hosted")
         
         ## Stage
         file_name = os.path.basename(self.local_image_path)
@@ -70,18 +80,18 @@ class Image(Media):
         staged_media_resource_url = self.stage()
 
         ## Create
-        hosted_media_object = file_create(staged_media_resource_url)
-
-        ## Process (create the object front-end needs)
-        processed_image_json = hosted_media_object
+        create_response = file_create(staged_media_resource_url)
+        shopify_id = create_response["data"]["fileCreate"]["files"][0]["id"]
+        file_response = fetch_file_by_id(shopify_id)
 
         ## Cache processed media object
-        HOSTED_MEDIA_CACHE[self.local_image_path] = processed_image_json
+        embed_shopify_id_in_file(self.local_image_path, shopify_id)
+        HOSTED_MEDIA_CACHE[shopify_id] = file_response
         with open("./cache/__hosted_media_cache.json", "w") as file:
             json.dump(HOSTED_MEDIA_CACHE, file)
 
         ## Store
-        self.shopify_image = processed_image_json
+        self.shopify_image = file_response
         return self.shopify_image
     
 
@@ -92,9 +102,14 @@ class Video(Media):
         self.shopify_video = None
         self.media_type = "VIDEO"
 
+        shopify_id = fetch_shopify_id_from_file(self.local_path)
+
         ## Check if cached
-        if self.local_path in HOSTED_MEDIA_CACHE:
-            self.shopify_video = HOSTED_MEDIA_CACHE[self.local_path]
+        if shopify_id and shopify_id in HOSTED_MEDIA_CACHE:
+            self.shopify_video = HOSTED_MEDIA_CACHE[shopify_id]
+        elif shopify_id:
+            self.shopify_video = fetch_file_by_id(shopify_id)
+            HOSTED_MEDIA_CACHE[shopify_id] = self.shopify_video
     
     def get_media_type(self):
         return self.media_type
@@ -117,25 +132,27 @@ class Video(Media):
         ## Check if already created this runtime
         if self.shopify_video:
             return self.shopify_video
-        
+
         ## Stage
+        print("hosting", self.local_path)
         staged_media_resource_url = self.stage()
 
         ## Create
-        print("hosting", self.local_path)
-        hosted_media_object = file_create(staged_media_resource_url)
+        create_response = file_create(staged_media_resource_url)
+        shopify_id = create_response["data"]["fileCreate"]["files"][0]["id"]
+        file_response = fetch_file_by_id(shopify_id)
 
-        ## Process (create the object front-end needs)
-        processed_media_object = hosted_media_object
 
         ## Cache
-        HOSTED_MEDIA_CACHE[self.local_path] = hosted_media_object
+        embed_shopify_id_in_file(self.local_path, shopify_id)
+        HOSTED_MEDIA_CACHE[shopify_id] = file_response
+        print("HERE FOR CACHE 2")
+        print(HOSTED_MEDIA_CACHE[shopify_id])
         with open("./cache/__hosted_media_cache.json", "w") as file:
             json.dump(HOSTED_MEDIA_CACHE, file)
 
         ## Store
-        self.shopify_video = hosted_media_object
-
+        self.shopify_video = file_response
         return self.shopify_video
 
 class Image360(Media):
@@ -147,7 +164,6 @@ class Image360(Media):
         self.media_type = "360_IMG"
 
         # Sort by removing extension, non-digit characters, then sort by that number
-        print(folder_path)
         for img_file in sorted(os.listdir(folder_path), key=lambda x: int(''.join(filter(str.isdigit, os.path.splitext(x)[0]))) if any(char.isdigit() for char in x) else float('inf')):
             if img_file.lower().endswith(('.png', '.jpg', '.jpeg')):
                 img_path = os.path.join(folder_path, img_file)

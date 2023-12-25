@@ -1,8 +1,8 @@
 {
     "Cubed": {
-        "TITLE": "Demo Cubed Sofa",
-        "DESCRIPTION": "this is a demo product description",
-        "OPTIONS": ["Fabric", "Leg Finish"],
+        "TITLE": "Cubed Sofa",
+        "DESCRIPTION": "International modern design united in a compact sofa that creates space rather than occupy it. Cubed’s multifunction is fused through an innovative design process that doesn’t compromise form or function.",
+        "OPTIONS": ["Fabric", "Base"],
         "VENDOR": "Innovation Living",
         "VARIANTS": {
             "95-744002521-3-2": {

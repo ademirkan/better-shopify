@@ -78,7 +78,7 @@ def fetch_file_by_id(id):
         # Check for errors
         if 'errors' in data:
             print("Error fetching file:", data['errors'])
-            break
+            continue
 
         node_data = data.get("data", {}).get("node", {})
         if 'image' in node_data and node_data['image'] is not None:
@@ -207,7 +207,7 @@ def file_stage(src, filename):
 
     return resource_url
  
-# Given a staged URL, create a file in Shopify Admin. Return the media object.
+# Given a staged URL, create a file in Shopify Admin. Returns create response.
 def file_create(staged_src, alt=""):
     # If video, update the resource URL to the video URL
     if staged_src.startswith("https://shopify-video-production-core-originals.storage.googleapis.com"):
@@ -247,9 +247,7 @@ def file_create(staged_src, alt=""):
     }
 
     create_response = run_shopify_query(CREATE_QUERY, CREATE_VARIABLES)
-    media_id = create_response["data"]["fileCreate"]["files"][0]["id"]
     if create_response["data"]["fileCreate"]["userErrors"]:
         raise Exception(f"Failed to create upload:", staged_src)
     
-    media_obj = fetch_file_by_id(media_id)
-    return media_obj
+    return create_response

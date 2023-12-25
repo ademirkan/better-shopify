@@ -3,16 +3,13 @@ import os
 from media import Image, Video, Image360
 import re
 
-
-
 class MediaManager:
     def __init__(self, media_folder_path):
         self.product_media_map = {}
 
         def extract_number(filename):
             match = re.search(r'(\d+)', filename)
-            return int(match.group()) if match else 0
-                
+            return int(match.group()) if match else 0       
         
         def process_file(path, name):
             if os.path.isdir(path):
@@ -45,7 +42,6 @@ class MediaManager:
             path_to_media_cache = {}
             ordered_product_media_path_map = {}
 
-
             ## Construct ordered_product_media_path_map
             for product_id in os.listdir(media_folder_path):
                 product_path = os.path.join(media_folder_path, product_id)
@@ -56,7 +52,6 @@ class MediaManager:
 
                 ordered_product_media_path_map[product_id] = {}
                 shared_media_folder_path = os.path.join(product_path, "Shared Media")
-
 
                 # Process shared media if exists
                 shared_media_paths = {}
@@ -103,7 +98,6 @@ class MediaManager:
     
             ## Using ordered_product_media_path_map, populate product_media_object_map
             ## TODO: Implement
-            print(ordered_product_media_path_map)
             path_to_media_cache = {}
             for product_id in ordered_product_media_path_map:
                 product_media_object_map[product_id] = {}
