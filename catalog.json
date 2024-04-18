@@ -1,0 +1,1187 @@
+{
+    "DUBLEXO SOFA": {
+        "TITLE": "DUBLEXO SOFA",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric", "Base", "Arms"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-741050506-10-3-2": {
+                "TITLE": "Dublexo Styletto Sofa Bed Dark Wood 506",
+                "COMPARE_AT_PRICE": "$2,185",
+                "PRICE": "$1,995",
+                "COST": "$855",
+                "SKU": "95-741050506-10-3-2",
+                "OPTIONS": ["506", "Dark Wood", "No"],
+                "LBS": "28.60"
+            },
+            "95-741050521-10-3-2": {
+                "TITLE": "Dublexo Styletto Sofa Bed Dark Wood 521",
+                "COMPARE_AT_PRICE": "$2,185",
+                "PRICE": "$1,995",
+                "COST": "$855",
+                "SKU": "95-741050521-10-3-2",
+                "OPTIONS": ["521", "Dark Wood", "No"],
+                "LBS": "28.60"
+            },
+            "95-741050527-10-3-2": {
+                "TITLE": "Dublexo Styletto Sofa Bed Dark Wood 527",
+                "COMPARE_AT_PRICE": "$2,185",
+                "PRICE": "$1,995",
+                "COST": "$855",
+                "SKU": "95-741050527-10-3-2",
+                "OPTIONS": ["527", "Dark Wood", "No"],
+                "LBS": "28.60"
+            },
+            "95-741050506-8-2": {
+                "TITLE": "Dublexo Stainless Steel Sofa Bed 506",
+                "COMPARE_AT_PRICE": "$2,185",
+                "PRICE": "$1,995",
+                "COST": "$855",
+                "SKU": "95-741050506-8-2",
+                "OPTIONS": ["506", "Stainless Steel", "No"],
+                "LBS": "28.91"
+            },
+            "95-741050521-8-2": {
+                "TITLE": "Dublexo Stainless Steel Sofa Bed 521",
+                "COMPARE_AT_PRICE": "$2,185",
+                "PRICE": "$1,995",
+                "COST": "$855",
+                "SKU": "95-741050521-8-2",
+                "OPTIONS": ["521", "Stainless Steel", "No"],
+                "LBS": "28.91"
+            },
+            "95-741050527-8-2": {
+                "TITLE": "Dublexo Stainless Steel Sofa Bed 527",
+                "COMPARE_AT_PRICE": "$2,185",
+                "PRICE": "$1,995",
+                "COST": "$855",
+                "SKU": "95-741050527-8-2",
+                "OPTIONS": ["527", "Stainless Steel", "No"],
+                "LBS": "28.91"
+            },
+            "95-74105020506-10-32": {
+                "TITLE": "Dublexo Styletto Sofa Bed Dark Wood With Arms 506",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105020506-10-32",
+                "OPTIONS": ["506", "Dark Wood", "Yes"],
+                "LBS": "38.61"
+            },
+            "95-74105020521-10-32": {
+                "TITLE": "Dublexo Styletto Sofa Bed Dark Wood With Arms 521",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105020521-10-32",
+                "OPTIONS": ["521", "Dark Wood", "Yes"],
+                "LBS": "38.61"
+            },
+            "95-74105020527-10-32": {
+                "TITLE": "Dublexo Styletto Sofa Bed Dark Wood With Arms 527",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105020527-10-32",
+                "OPTIONS": ["527", "Dark Wood", "Yes"],
+                "LBS": "38.61"
+            },
+            "95-74105020506-8-2": {
+                "TITLE": "Dublexo Stainless Steel Sofa Bed With Arms 506",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105020506-8-2",
+                "OPTIONS": ["506", "Stainless Steel", "Yes"],
+                "LBS": "38.61"
+            },
+            "95-74105020521-8-2": {
+                "TITLE": "Dublexo Stainless Steel Sofa Bed With Arms 521",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105020521-8-2",
+                "OPTIONS": ["521", "Stainless Steel", "Yes"],
+                "LBS": "38.61"
+            },
+            "95-74105020527-8-2": {
+                "TITLE": "Dublexo Stainless Steel Sofa Bed With Arms 527",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105020527-8-2",
+                "OPTIONS": ["527", "Stainless Steel", "Yes"],
+                "LBS": "38.61"
+            },
+            "95-74105027506-7-2": {
+                "TITLE": "Dublexo Frej Sofa Bed Smoked Oak 506",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105027506-7-2",
+                "OPTIONS": ["506", "Frej", "N/A"],
+                "LBS": "25.96"
+            },
+            "95-74105027521-7-2": {
+                "TITLE": "Dublexo Frej Sofa Bed Smoked Oak 521",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105027521-7-2",
+                "OPTIONS": ["521", "Frej", "N/A"],
+                "LBS": "25.96"
+            },
+            "95-74105027527-7-2": {
+                "TITLE": "Dublexo Frej Sofa Bed Smoked Oak 527",
+                "COMPARE_AT_PRICE": "$2,695",
+                "PRICE": "$2,395",
+                "COST": "$1,055",
+                "SKU": "95-74105027527-7-2",
+                "OPTIONS": ["527", "Frej", "N/A"],
+                "LBS": "25.96"
+            },
+            "95-74105043506-7-2": {
+                "TITLE": "Dublexo Eik Sofa Bed Smoked Oak 506",
+                "COMPARE_AT_PRICE": "$2,295",
+                "PRICE": "$1,995",
+                "COST": "$900",
+                "SKU": "95-74105043506-7-2",
+                "OPTIONS": ["506", "Eik", "N/A"],
+                "LBS": "25.52"
+            },
+            "95-74105043521-7-2": {
+                "TITLE": "Dublexo Eik Sofa Bed Smoked Oak 521",
+                "COMPARE_AT_PRICE": "$2,295",
+                "PRICE": "$1,995",
+                "COST": "$900",
+                "SKU": "95-74105043521-7-2",
+                "OPTIONS": ["521", "Eik", "N/A"],
+                "LBS": "25.52"
+            },
+            "95-74105043527-7-2": {
+                "TITLE": "Dublexo Eik Sofa Bed Smoked Oak 527",
+                "COMPARE_AT_PRICE": "$2,295",
+                "PRICE": "$1,995",
+                "COST": "$900",
+                "SKU": "95-74105043527-7-2",
+                "OPTIONS": ["527", "Eik", "N/A"],
+                "LBS": "25.52"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "DUBLEXO CHAIR": {
+        "TITLE": "DUBLEXO CHAIR",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric", "Base"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-741051506-10-3-2": {
+                "TITLE": "Dublexo Styletto Chair Dark Wood 506",
+                "COMPARE_AT_PRICE": "$1,150",
+                "PRICE": "$995",
+                "COST": "$450",
+                "SKU": "95-741051506-10-3-2",
+                "OPTIONS": ["506", "Dark Wood"],
+                "LBS": "16.28"
+            },
+            "95-741051521-10-3-2": {
+                "TITLE": "Dublexo Styletto Chair Dark Wood 521",
+                "COMPARE_AT_PRICE": "$1,150",
+                "PRICE": "$995",
+                "COST": "$450",
+                "SKU": "95-741051521-10-3-2",
+                "OPTIONS": ["521", "Dark Wood"],
+                "LBS": "16.28"
+            },
+            "95-741051527-10-3-2": {
+                "TITLE": "Dublexo Styletto Chair Dark Wood 527",
+                "COMPARE_AT_PRICE": "$1,150",
+                "PRICE": "$995",
+                "COST": "$450",
+                "SKU": "95-741051527-10-3-2",
+                "OPTIONS": ["527", "Dark Wood"],
+                "LBS": "16.28"
+            },
+            "95-741051506-8-2": {
+                "TITLE": "Dublexo Stainless Steel Chair 506",
+                "COMPARE_AT_PRICE": "$1,150",
+                "PRICE": "$995",
+                "COST": "$450",
+                "SKU": "95-741051506-8-2",
+                "OPTIONS": ["506", "Stainless Steel"],
+                "LBS": "15.8"
+            },
+            "95-741051521-8-2": {
+                "TITLE": "Dublexo Stainless Steel Chair 521",
+                "COMPARE_AT_PRICE": "$1,150",
+                "PRICE": "$995",
+                "COST": "$450",
+                "SKU": "95-741051521-8-2",
+                "OPTIONS": ["521", "Stainless Steel"],
+                "LBS": "15.8"
+            },
+            "95-741051527-8-2": {
+                "TITLE": "Dublexo Stainless Steel Chair 527",
+                "COMPARE_AT_PRICE": "$1,150",
+                "PRICE": "$995",
+                "COST": "$450",
+                "SKU": "95-741051527-8-2",
+                "OPTIONS": ["527", "Stainless Steel"],
+                "LBS": "15.8"
+            },
+            "95-74105126506-7-2": {
+                "TITLE": "Dublexo Frej Chair Smoked Oak 506",
+                "COMPARE_AT_PRICE": "$1,680",
+                "PRICE": "$1,495",
+                "COST": "$655",
+                "SKU": "95-74105126506-7-2",
+                "OPTIONS": ["506", "Frej"],
+                "LBS": "12.3"
+            },
+            "95-74105126521-7-2": {
+                "TITLE": "Dublexo Frej Chair Smoked Oak 521",
+                "COMPARE_AT_PRICE": "$1,680",
+                "PRICE": "$1,495",
+                "COST": "$655",
+                "SKU": "95-74105126521-7-2",
+                "OPTIONS": ["521", "Frej"],
+                "LBS": "12.3"
+            },
+            "95-74105126527-7-2": {
+                "TITLE": "Dublexo Frej Chair Smoked Oak 527",
+                "COMPARE_AT_PRICE": "$1,680",
+                "PRICE": "$1,495",
+                "COST": "$655",
+                "SKU": "95-74105126527-7-2",
+                "OPTIONS": ["527", "Frej"],
+                "LBS": "12.3"
+            },
+            "95-74105144506-7-2": {
+                "TITLE": "Dublexo Eik Chair Smoked Oak 506",
+                "COMPARE_AT_PRICE": "$1,495",
+                "PRICE": "$1,295",
+                "COST": "$585",
+                "SKU": "95-74105144506-7-2",
+                "OPTIONS": ["506", "Eik"],
+                "LBS": "11"
+            },
+            "95-74105144521-7-2": {
+                "TITLE": "Dublexo Eik Chair Smoked Oak 521",
+                "COMPARE_AT_PRICE": "$1,495",
+                "PRICE": "$1,295",
+                "COST": "$585",
+                "SKU": "95-74105144521-7-2",
+                "OPTIONS": ["521", "Eik"],
+                "LBS": "11"
+            },
+            "95-74105144527-7-2": {
+                "TITLE": "Dublexo Eik Chair Smoked Oak 527",
+                "COMPARE_AT_PRICE": "$1,495",
+                "PRICE": "$1,295",
+                "COST": "$585",
+                "SKU": "95-74105144527-7-2",
+                "OPTIONS": ["527", "Eik"],
+                "LBS": "11"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "COSIAL SOFA BED W/ARM RESTS": {
+        "TITLE": "COSIAL SOFA BED W/ARM RESTS",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-585004020580-01-2": {
+                "TITLE": "Cosial Queen Size Sofa Bed 580",
+                "COMPARE_AT_PRICE": "$3,845",
+                "PRICE": "$3,295",
+                "COST": "$1,500",
+                "SKU": "95-585004020580-01-2",
+                "OPTIONS": ["580"],
+                "LBS": "110"
+            },
+            "95-585004020590-01-2": {
+                "TITLE": "Cosial Queen Size Sofa Bed 590",
+                "COMPARE_AT_PRICE": "$3,845",
+                "PRICE": "$3,295",
+                "COST": "$1,500",
+                "SKU": "95-585004020590-01-2",
+                "OPTIONS": ["590"],
+                "LBS": "110"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "CUBED SOFA": {
+        "TITLE": "CUBED SOFA",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric", "Base", "Size"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-744002521-0-2": {
+                "TITLE": "Cubed Full Size Sofa Bed With Chrome Legs 521",
+                "COMPARE_AT_PRICE": "$2,725",
+                "PRICE": "$2,375",
+                "COST": "$1,065",
+                "SKU": "95-744002521-0-2",
+                "OPTIONS": ["521", "Chrome", "Full"],
+                "LBS": "31.9"
+            },
+            "95-744002527-0-2": {
+                "TITLE": "Cubed Full Size Sofa Bed With Chrome Legs 527",
+                "COMPARE_AT_PRICE": "$2,725",
+                "PRICE": "$2,375",
+                "COST": "$1,065",
+                "SKU": "95-744002527-0-2",
+                "OPTIONS": ["527", "Chrome", "Full"],
+                "LBS": "31.9"
+            },
+            "95-744002521-3-2": {
+                "TITLE": "Cubed Full Size Sofa Bed With Dark Wood Legs 521",
+                "COMPARE_AT_PRICE": "$3,150",
+                "PRICE": "$2,755",
+                "COST": "$1,235",
+                "SKU": "95-744002521-3-2",
+                "OPTIONS": ["521", "Dark Wood", "Full"],
+                "LBS": "31.9"
+            },
+            "95-744002527-3-2": {
+                "TITLE": "Cubed Full Size Sofa Bed With Dark Wood Legs 527",
+                "COMPARE_AT_PRICE": "$3,150",
+                "PRICE": "$2,755",
+                "COST": "$1,235",
+                "SKU": "95-744002527-3-2",
+                "OPTIONS": ["527", "Dark Wood", "Full"],
+                "LBS": "31.9"
+            },
+            "95-744002521-6-2": {
+                "TITLE": "Cubed Full Size Sofa Bed With Alu Legs 521",
+                "COMPARE_AT_PRICE": "$3,150",
+                "PRICE": "$2,755",
+                "COST": "$1,235",
+                "SKU": "95-744002521-6-2",
+                "OPTIONS": ["521", "Aluminium", "Full"],
+                "LBS": "31.9"
+            },
+            "95-744002527-6-2": {
+                "TITLE": "Cubed Full Size Sofa Bed With Alu Legs 527",
+                "COMPARE_AT_PRICE": "$3,150",
+                "PRICE": "$2,755",
+                "COST": "$1,235",
+                "SKU": "95-744002527-6-2",
+                "OPTIONS": ["527", "Aluminium", "Full"],
+                "LBS": "31.9"
+            },
+            "95-744002020521-2": {
+                "TITLE": "Cubed Full Size Sofa Bed With Arms 521",
+                "COMPARE_AT_PRICE": "$3,015",
+                "PRICE": "$2,650",
+                "COST": "$1,180",
+                "SKU": "95-744002020521-2",
+                "OPTIONS": ["521", "Upholstered Arms", "Full"],
+                "LBS": "31.9"
+            },
+            "95-744002020527-2": {
+                "TITLE": "Cubed Full Size Sofa Bed With Arms 527",
+                "COMPARE_AT_PRICE": "$3,015",
+                "PRICE": "$2,650",
+                "COST": "$1,180",
+                "SKU": "95-744002020527-2",
+                "OPTIONS": ["527", "Upholstered Arms", "Full"],
+                "LBS": "31.9"
+            },
+            "95-744029521-0-2": {
+                "TITLE": "Cubed Queen Size Sofa Bed With Chrome Legs 521",
+                "COMPARE_AT_PRICE": "$2,980",
+                "PRICE": "$2,625",
+                "COST": "$1,165",
+                "SKU": "95-744029521-0-2",
+                "OPTIONS": ["521", "Chrome", "Queen"],
+                "LBS": "35.2"
+            },
+            "95-744029527-0-2": {
+                "TITLE": "Cubed Queen Size Sofa Bed With Chrome Legs 527",
+                "COMPARE_AT_PRICE": "$2,980",
+                "PRICE": "$2,625",
+                "COST": "$1,165",
+                "SKU": "95-744029527-0-2",
+                "OPTIONS": ["527", "Chrome", "Queen"],
+                "LBS": "35.2"
+            },
+            "95-744029521-3-2": {
+                "TITLE": "Cubed Queen Size Sofa Bed With Dark Wood Legs 521",
+                "COMPARE_AT_PRICE": "$3,450",
+                "PRICE": "$2,995",
+                "COST": "$1,350",
+                "SKU": "95-744029521-3-2",
+                "OPTIONS": ["521", "Dark Wood", "Queen"],
+                "LBS": "35.2"
+            },
+            "95-744029527-3-2": {
+                "TITLE": "Cubed Queen Size Sofa Bed With Dark Wood Legs 527",
+                "COMPARE_AT_PRICE": "$3,450",
+                "PRICE": "$2,995",
+                "COST": "$1,350",
+                "SKU": "95-744029527-3-2",
+                "OPTIONS": ["527", "Dark Wood", "Queen"],
+                "LBS": "35.2"
+            },
+            "95-744029521-6-2": {
+                "TITLE": "Cubed Queen Size Sofa Bed With Alu Legs 521",
+                "COMPARE_AT_PRICE": "$3,450",
+                "PRICE": "$2,995",
+                "COST": "$1,350",
+                "SKU": "95-744029521-6-2",
+                "OPTIONS": ["521", "Aluminium", "Queen"],
+                "LBS": "35.2"
+            },
+            "95-744029527-6-2": {
+                "TITLE": "Cubed Queen Size Sofa Bed With Alu Legs 527",
+                "COMPARE_AT_PRICE": "$3,450",
+                "PRICE": "$2,995",
+                "COST": "$1,350",
+                "SKU": "95-744029527-6-2",
+                "OPTIONS": ["527", "Aluminium", "Queen"],
+                "LBS": "35.2"
+            },
+            "95-744029020521-2": {
+                "TITLE": "Cubed Queen Size Sofa Bed With Arms 521",
+                "COMPARE_AT_PRICE": "$3,325",
+                "PRICE": "$2,895",
+                "COST": "$1,300",
+                "SKU": "95-744029020521-2",
+                "OPTIONS": ["521", "Upholstered Arms", "Queen"],
+                "LBS": "35.2"
+            },
+            "95-744029020527-2": {
+                "TITLE": "Cubed Queen Size Sofa Bed With Arms 527",
+                "COMPARE_AT_PRICE": "$3,325",
+                "PRICE": "$2,895",
+                "COST": "$1,300",
+                "SKU": "95-744029020527-2",
+                "OPTIONS": ["527", "Upholstered Arms", "Queen"],
+                "LBS": "35.2"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "KILLIAN DUAL SOFA": {
+        "TITLE": "KILLIAN DUAL SOFA",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-592160565D-02-4": {
+                "TITLE": "Killian Queen Size Sofa Bed (Dual Mattress) 565",
+                "COMPARE_AT_PRICE": "$4,255",
+                "PRICE": "$3,595",
+                "COST": "$1,665",
+                "SKU": "95-592160565D-02-4",
+                "OPTIONS": ["565"],
+                "LBS": "49.78"
+            },
+            "95-592160579D-02-4": {
+                "TITLE": "Killian Queen Size Sofa Bed (Dual Mattress) 579",
+                "COMPARE_AT_PRICE": "$4,255",
+                "PRICE": "$3,595",
+                "COST": "$1,665",
+                "SKU": "95-592160579D-02-4",
+                "OPTIONS": ["579"],
+                "LBS": "49.78"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "EIVOR DUAL SOFA": {
+        "TITLE": "EIVOR DUAL SOFA",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-592160565D-01-4": {
+                "TITLE": "Eivor Queen Size Sofa Bed (Dual Mattress) 565",
+                "COMPARE_AT_PRICE": "$4,025",
+                "PRICE": "$3,325",
+                "COST": "$1,575",
+                "SKU": "95-592160565D-01-4",
+                "OPTIONS": ["565"],
+                "LBS": "49.78"
+            },
+            "95-592160579D-01-4": {
+                "TITLE": "Eivor Queen Size Sofa Bed (Dual Mattress) 579",
+                "COMPARE_AT_PRICE": "$4,025",
+                "PRICE": "$3,325",
+                "COST": "$1,575",
+                "SKU": "95-592160579D-01-4",
+                "OPTIONS": ["579"],
+                "LBS": "49.78"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "ZEAL": {
+        "TITLE": "ZEAL",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric", "Base"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-740021216-2-10-3": {
+                "TITLE": "Zeal Styletto Daybed 216",
+                "COMPARE_AT_PRICE": "$1,295",
+                "PRICE": "$1,095",
+                "COST": "$520",
+                "SKU": "95-740021216-2-10-3",
+                "OPTIONS": ["216", "Styletto"],
+                "LBS": "9.9"
+            },
+            "95-740021525-2-10-3": {
+                "TITLE": "Zeal Styletto Daybed 525",
+                "COMPARE_AT_PRICE": "$1,295",
+                "PRICE": "$1,095",
+                "COST": "$520",
+                "SKU": "95-740021525-2-10-3",
+                "OPTIONS": ["525", "Styletto"],
+                "LBS": "9.9"
+            },
+            "95-740021554-2-10-3": {
+                "TITLE": "Zeal Styletto Daybed 554",
+                "COMPARE_AT_PRICE": "$1,295",
+                "PRICE": "$1,095",
+                "COST": "$520",
+                "SKU": "95-740021554-2-10-3",
+                "OPTIONS": ["554", "Styletto"],
+                "LBS": "9.9"
+            },
+            "95-740021216-2-19-6": {
+                "TITLE": "Zeal Straw Daybed 216",
+                "COMPARE_AT_PRICE": "$1,295",
+                "PRICE": "$1,095",
+                "COST": "$520",
+                "SKU": "95-740021216-2-19-6",
+                "OPTIONS": ["216", "Straw"],
+                "LBS": "13.86"
+            },
+            "95-740021525-2-19-6": {
+                "TITLE": "Zeal Straw Daybed 525",
+                "COMPARE_AT_PRICE": "$1,295",
+                "PRICE": "$1,095",
+                "COST": "$520",
+                "SKU": "95-740021525-2-19-6",
+                "OPTIONS": ["525", "Straw"],
+                "LBS": "13.86"
+            },
+            "95-740021554-2-19-6": {
+                "TITLE": "Zeal Straw Daybed 554",
+                "COMPARE_AT_PRICE": "$1,295",
+                "PRICE": "$1,095",
+                "COST": "$520",
+                "SKU": "95-740021554-2-19-6",
+                "OPTIONS": ["554", "Straw"],
+                "LBS": "13.86"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "UNFURL SOFA, DARK WOOD": {
+        "TITLE": "UNFURL SOFA, DARK WOOD",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "772001507-10-3-2": {
+                "TITLE": "Unfurl Sofa Bed 507",
+                "COMPARE_AT_PRICE": "$1,725",
+                "PRICE": "$1,495",
+                "COST": "$675",
+                "SKU": "772001507-10-3-2",
+                "OPTIONS": ["507"],
+                "LBS": ""
+            },
+
+            "772001521-10-3-2": {
+                "TITLE": "Unfurl Sofa Bed 521",
+                "COMPARE_AT_PRICE": "$1,725",
+                "PRICE": "$1,495",
+                "COST": "$675",
+                "SKU": "772001521-10-3-2",
+                "OPTIONS": ["521"],
+                "LBS": ""
+            },
+
+            "772001534-10-3-2": {
+                "TITLE": "Unfurl Sofa Bed 534",
+                "COMPARE_AT_PRICE": "$1,725",
+                "PRICE": "$1,495",
+                "COST": "$675",
+                "SKU": "772001534-10-3-2",
+                "OPTIONS": ["534"],
+                "LBS": ""
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "YONATA SOFA, BLACK METAL LEGS": {
+        "TITLE": "YONATA SOFA, BLACK METAL LEGS",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-543115586-2": {
+                "TITLE": "Yonata Sofa Bed 586",
+                "COMPARE_AT_PRICE": "$3,450",
+                "PRICE": "$2,995",
+                "COST": "$1,350",
+                "SKU": "95-543115586-2",
+                "OPTIONS": ["586"],
+                "LBS": "111.1"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "MALLOY SOFA, BLACK STEEL": {
+        "TITLE": "MALLOY SOFA, BLACK STEEL",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-543125020579-2": {
+                "TITLE": "Malloy Sofa Bed 579",
+                "COMPARE_AT_PRICE": "$4,095",
+                "PRICE": "$3,495",
+                "COST": "$1,600",
+                "SKU": "95-543125020579-2",
+                "OPTIONS": ["579"],
+                "LBS": "85.8"
+            },
+            "95-543125020590-2": {
+                "TITLE": "Malloy Sofa Bed 590",
+                "COMPARE_AT_PRICE": "$1,095",
+                "PRICE": "$3,495",
+                "COST": "$1,600",
+                "SKU": "95-543125020590-2",
+                "OPTIONS": ["590"],
+                "LBS": "85.8"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "CONLIX SOFA, SMOKED OAK LEGS": {
+        "TITLE": "CONLIX SOFA, SMOKED OAK LEGS",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-722081317-18-7-2": {
+                "TITLE": "Conlix Sofa Bed Smoked Oak 317",
+                "COMPARE_AT_PRICE": "$2,295",
+                "PRICE": "$1,925",
+                "COST": "$900",
+                "SKU": "95-722081317-18-7-2",
+                "OPTIONS": ["317"],
+                "LBS": "10.12"
+            },
+            "95-722081318-18-7-2": {
+                "TITLE": "Conlix Sofa Bed Smoked Oak 318",
+                "COMPARE_AT_PRICE": "$2,295",
+                "PRICE": "$1,925",
+                "COST": "$900",
+                "SKU": "95-722081318-18-7-2",
+                "OPTIONS": ["318"],
+                "LBS": "10.12"
+            },
+            "95-722081580-18-7-2": {
+                "TITLE": "Conlix Sofa Bed Smoked Oak 580",
+                "COMPARE_AT_PRICE": "$2,295",
+                "PRICE": "$1,925",
+                "COST": "$900",
+                "SKU": "95-722081580-18-7-2",
+                "OPTIONS": ["580"],
+                "LBS": "10.12"
+            },
+            "95-722081583-18-7-2": {
+                "TITLE": "Conlix Sofa Bed Smoked Oak 583",
+                "COMPARE_AT_PRICE": "$2,295",
+                "PRICE": "$1,925",
+                "COST": "$900",
+                "SKU": "95-722081583-18-7-2",
+                "OPTIONS": ["583"],
+                "LBS": "10.12"
+            },
+            "95-722081585-18-7-2": {
+                "TITLE": "Conlix Sofa Bed Smoked Oak 585",
+                "COMPARE_AT_PRICE": "$2,295",
+                "PRICE": "$1,925",
+                "COST": "$900",
+                "SKU": "95-722081585-18-7-2",
+                "OPTIONS": ["585"],
+                "LBS": "10.12"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "RECAST": {
+        "TITLE": "RECAST",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric", "Arms"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-742050515-WOOD": {
+                "TITLE": "Recast Plus Sofa Bed Dark Styletto With Arms 515",
+                "COMPARE_AT_PRICE": "$2,485",
+                "PRICE": "$2,245",
+                "COST": "$970",
+                "SKU": "95-742050515-WOOD",
+                "OPTIONS": ["515", "Yes"],
+                "LBS": "14.08"
+            },
+            "742050506-10-3-2": {
+                "TITLE": "Recast Plus Sofa Bed Dark Styletto 506",
+                "COMPARE_AT_PRICE": "$2,055",
+                "PRICE": "$1,795",
+                "COST": "$805",
+                "SKU": "742050506-10-3-2",
+                "OPTIONS": ["506", "No"],
+                "LBS": ""
+            },
+            "95-742050506-WOOD": {
+                "TITLE": "Recast Plus Sofa Bed Dark Styletto With Arms 506",
+                "COMPARE_AT_PRICE": "$2,485",
+                "PRICE": "$2,245",
+                "COST": "$970",
+                "SKU": "95-742050506-WOOD",
+                "OPTIONS": ["506", "Yes"],
+                "LBS": "14.08"
+            },
+            "742050515-10-3-2": {
+                "TITLE": "Recast Plus Sofa Bed Dark Styletto 515",
+                "COMPARE_AT_PRICE": "$2,055",
+                "PRICE": "$1,795",
+                "COST": "$805",
+                "SKU": "742050515-10-3-2",
+                "OPTIONS": ["515", "No"],
+                "LBS": ""
+            },
+            "95-742050538-WOOD": {
+                "TITLE": "Recast Plus Sofa Bed Dark Styletto With Arms 538",
+                "COMPARE_AT_PRICE": "$2,485",
+                "PRICE": "$2,245",
+                "COST": "$970",
+                "SKU": "95-742050538-WOOD",
+                "OPTIONS": ["538", "Yes"],
+                "LBS": "14.08"
+            },
+            "742050538-10-3-2": {
+                "TITLE": "Recast Plus Sofa Bed Dark Styletto 538",
+                "COMPARE_AT_PRICE": "$2,055",
+                "PRICE": "$1,795",
+                "COST": "$805",
+                "SKU": "742050538-10-3-2",
+                "OPTIONS": ["538", "No"],
+                "LBS": ""
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "FRODE": {
+        "TITLE": "FRODE",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric", "Arms"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-742048531-10-3-2": {
+                "TITLE": "Frode Dark Styletto Sofa Bed Upholstered Arms 531",
+                "COMPARE_AT_PRICE": "$3,095",
+                "PRICE": "$2,495",
+                "COST": "$1,215",
+                "SKU": "95-742048531-10-3-2",
+                "OPTIONS": ["531", "Upholstered Arms"],
+                "LBS": "31.9"
+            },
+            "95-742048565-10-3-2": {
+                "TITLE": "Frode Dark Styletto Sofa Bed Upholstered Arms 565",
+                "COMPARE_AT_PRICE": "$3,095",
+                "PRICE": "$2,495",
+                "COST": "$1,215",
+                "SKU": "95-742048565-10-3-2",
+                "OPTIONS": ["565", "Upholstered"],
+                "LBS": "31.9"
+            },
+            "95-742048020531-WOOD": {
+                "TITLE": "Frode Dark Styletto Sofa Bed Walnut Arms 531",
+                "COMPARE_AT_PRICE": "$3,095",
+                "PRICE": "$2,495",
+                "COST": "$1,215",
+                "SKU": "95-742048020531-WOOD",
+                "OPTIONS": ["531", "Walnut"],
+                "LBS": "14.08"
+            },
+            "95-742048020565-WOOD": {
+                "TITLE": "Frode Dark Styletto Sofa Bed Walnut Arms 565",
+                "COMPARE_AT_PRICE": "$3,095",
+                "PRICE": "$2,495",
+                "COST": "$1,215",
+                "SKU": "95-742048020565-WOOD",
+                "OPTIONS": ["565", "Walnut"],
+                "LBS": "14.08"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "OSVALD SOFA, FULL": {
+        "TITLE": "OSVALD SOFA, FULL",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-543091538-2": {
+                "TITLE": "Osvald Sofa Bed 538",
+                "COMPARE_AT_PRICE": "$3,450",
+                "PRICE": "$2,995",
+                "COST": "$1,350",
+                "SKU": "95-543091538-2",
+                "OPTIONS": ["538"],
+                "LBS": "64.02"
+            },
+            "95-543091579-2": {
+                "TITLE": "Osvald Sofa Bed 579",
+                "COMPARE_AT_PRICE": "$3,450",
+                "PRICE": "$2,995",
+                "COST": "$1,350",
+                "SKU": "95-543091579-2",
+                "OPTIONS": ["579"],
+                "LBS": "64.02"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "TRIPI SOFA W/ARMS, FULL": {
+        "TITLE": "TRIPI SOFA",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-543091020538-01-2": {
+                "TITLE": "Tripi Sofa Bed 538",
+                "COMPARE_AT_PRICE": "$3,895",
+                "PRICE": "$3,295",
+                "COST": "$1,530",
+                "SKU": "95-543091020538-01-2",
+                "OPTIONS": ["538"],
+                "LBS": "64.02"
+            },
+            "95-543091020579-01-2": {
+                "TITLE": "Tripi Sofa Bed 579",
+                "COMPARE_AT_PRICE": "$3,895",
+                "PRICE": "$3,295",
+                "COST": "$1,530",
+                "SKU": "95-543091020579-01-2",
+                "OPTIONS": ["579"],
+                "LBS": "64.02"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "CALUMA QUILT SOFA BED, SMOKED OAK": {
+        "TITLE": "CALUMA QUILT SOFA BED, SMOKED OAK",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-748082020527-7-2": {
+                "TITLE": "Caluma Sofa Bed Smoked Oak 527",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,795",
+                "COST": "$1,325",
+                "SKU": "95-748082020527-7-2",
+                "OPTIONS": ["527"],
+                "LBS": "70.84"
+            },
+            "95-748082020538-7-2": {
+                "TITLE": "Caluma Sofa Bed Smoked Oak 538",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,795",
+                "COST": "$1,325",
+                "SKU": "95-748082020538-7-2",
+                "OPTIONS": ["538"],
+                "LBS": "70.84"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "CASSIUS": {
+        "TITLE": "CASSIUS",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric", "Base"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-748082004527-0-2": {
+                "TITLE": "Cassius Quilt Chrome Sofa Bed 527",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,795",
+                "COST": "$1,325",
+                "SKU": "95-748082004527-0-2",
+                "OPTIONS": ["527", "Chrome"],
+                "LBS": "70.84"
+            },
+            "95-748082004538-0-2": {
+                "TITLE": "Cassius Quilt Chrome Sofa Bed 538",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,795",
+                "COST": "$1,325",
+                "SKU": "95-748082004538-0-2",
+                "OPTIONS": ["538", "Chrome"],
+                "LBS": "70.84"
+            },
+            "95-748082004527-3-2": {
+                "TITLE": "Cassius Quilt Dark Wood Sofa Bed 527",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,795",
+                "COST": "$1,325",
+                "SKU": "95-748082004527-3-2",
+                "OPTIONS": ["527", "Dark Wood"],
+                "LBS": "70.84"
+            },
+            "95-748082004538-3-2": {
+                "TITLE": "Cassius Quilt Dark Wood Sofa Bed 538",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,795",
+                "COST": "$1,325",
+                "SKU": "95-748082004538-3-2",
+                "OPTIONS": ["538", "Dark Wood"],
+                "LBS": "70.84"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "SUPREMAX D.E.L. CHROME": {
+        "TITLE": "SUPREMAX D.E.L. CHROME",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-748260527-0-2": {
+                "TITLE": "Supremax D.E.L. Sofa Bed 527",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,675",
+                "COST": "$1,260",
+                "SKU": "95-748260527-0-2",
+                "OPTIONS": ["527"],
+                "LBS": "83.38"
+            },
+            "95-748260528-0-2": {
+                "TITLE": "Supremax D.E.L. Sofa Bed 528",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,675",
+                "COST": "$1,260",
+                "SKU": "95-748260528-0-2",
+                "OPTIONS": ["528"],
+                "LBS": "83.38"
+            },
+            "95-748260538-0-2": {
+                "TITLE": "Supremax D.E.L. Sofa Bed 538",
+                "COMPARE_AT_PRICE": "$2,795",
+                "PRICE": "$2,675",
+                "COST": "$1,260",
+                "SKU": "95-748260538-0-2",
+                "OPTIONS": ["538"],
+                "LBS": "83.38"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "CASSIUS D.E.L. CHROME": {
+        "TITLE": "CASSIUS D.E.L. CHROME",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-748282527-0-2": {
+                "TITLE": "Cassius D.E.L. Sofa Bed 527",
+                "COMPARE_AT_PRICE": "$4,140",
+                "PRICE": "$3,495",
+                "COST": "$1,620",
+                "SKU": "95-748282527-0-2",
+                "OPTIONS": ["527"],
+                "LBS": "83.38"
+            },
+            "95-748282528-0-2": {
+                "TITLE": "Cassius D.E.L. Sofa Bed 528",
+                "COMPARE_AT_PRICE": "$4,140",
+                "PRICE": "$3,495",
+                "COST": "$1,620",
+                "SKU": "95-748282528-0-2",
+                "OPTIONS": ["528"],
+                "LBS": "83.38"
+            },
+            "95-748282538-0-2": {
+                "TITLE": "Cassius D.E.L. Sofa Bed 538",
+                "COMPARE_AT_PRICE": "$4,140",
+                "PRICE": "$3,495",
+                "COST": "$1,620",
+                "SKU": "95-748282538-0-2",
+                "OPTIONS": ["538"],
+                "LBS": "83.38"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "RAN D.E.L. SOFA, WALNUT ": {
+        "TITLE": "RAN D.E.L. SOFA, WALNUT ",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-748263527-3": {
+                "TITLE": "Ran D.E.L Sofa Bed 527",
+                "COMPARE_AT_PRICE": "$4,140",
+                "PRICE": "$3,495",
+                "COST": "$1,620",
+                "SKU": "95-748263527-3",
+                "OPTIONS": [],
+                "LBS": "83.38"
+            },
+            "95-748263528-3": {
+                "TITLE": "Ran D.E.L Sofa Bed 528",
+                "COMPARE_AT_PRICE": "$4,140",
+                "PRICE": "$3,495",
+                "COST": "$1,620",
+                "SKU": "95-748263528-3",
+                "OPTIONS": ["528"],
+                "LBS": "83.38"
+            },
+            "95-748263538-3": {
+                "TITLE": "Ran D.E.L Sofa Bed 538",
+                "COMPARE_AT_PRICE": "$4,140",
+                "PRICE": "$3,495",
+                "COST": "$1,620",
+                "SKU": "95-748263538-3",
+                "OPTIONS": ["538"],
+                "LBS": "83.38"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "GRAND D.E.L. SOFA, BLACK WOOD": {
+        "TITLE": "GRAND D.E.L. SOFA, BLACK WOOD",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-748190527-4": {
+                "TITLE": "Grand D.E.L Sofa Bed 527",
+                "COMPARE_AT_PRICE": "$4,785",
+                "PRICE": "$3,995",
+                "COST": "$1,870",
+                "SKU": "95-748190527-4",
+                "OPTIONS": ["527"],
+                "LBS": "83.38"
+            },
+            "95-748190528-4": {
+                "TITLE": "Grand D.E.L Sofa Bed 528",
+                "COMPARE_AT_PRICE": "$4,785",
+                "PRICE": "$3,995",
+                "COST": "$1,870",
+                "SKU": "95-748190528-4",
+                "OPTIONS": ["528"],
+                "LBS": "83.38"
+            },
+            "95-748190538-4": {
+                "TITLE": "Grand D.E.L Sofa Bed 538",
+                "COMPARE_AT_PRICE": "$4,785",
+                "PRICE": "$3,995",
+                "COST": "$1,870",
+                "SKU": "95-748190538-4",
+                "OPTIONS": ["538"],
+                "LBS": "83.38"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    },
+    "DELUXE OTTOMAN": {
+        "TITLE": "DELUXE OTTOMAN",
+        "DESCRIPTION": "",
+        "OPTIONS": ["Fabric", "Style"],
+        "VENDOR": "Innovation Living",
+        "VARIANTS": {
+            "95-748251527-0": {
+                "TITLE": "Supremax/Cassius D.E.L. ottoman 527",
+                "COMPARE_AT_PRICE": "$725",
+                "PRICE": "$595",
+                "COST": "$265",
+                "SKU": "95-748251527-0",
+                "OPTIONS": ["527", "Supremax/Cassius"],
+                "LBS": "11"
+            },
+            "95-748251528-0": {
+                "TITLE": "Supremax/Cassius D.E.L. ottoman 528",
+                "COMPARE_AT_PRICE": "$725",
+                "PRICE": "$595",
+                "COST": "$265",
+                "SKU": "95-748251528-0",
+                "OPTIONS": ["528", "Supremax/Cassius"],
+                "LBS": "11"
+            },
+            "95-748251538-0": {
+                "TITLE": "Supremax/Cassius D.E.L. ottoman 538",
+                "COMPARE_AT_PRICE": "$725",
+                "PRICE": "$595",
+                "COST": "$265",
+                "SKU": "95-748251538-0",
+                "OPTIONS": ["538", "Supremax/Cassius"],
+                "LBS": "11"
+            },
+            "95-748251527-3": {
+                "TITLE": "Grand D.E.L. Ottoman 527",
+                "COMPARE_AT_PRICE": "$725",
+                "PRICE": "$595",
+                "COST": "$265",
+                "SKU": "95-748251527-3",
+                "OPTIONS": ["527", "Grand"],
+                "LBS": "11"
+            },
+            "95-748251528-3": {
+                "TITLE": "Grand D.E.L. Ottoman 528",
+                "COMPARE_AT_PRICE": "$725",
+                "PRICE": "$595",
+                "COST": "$265",
+                "SKU": "95-748251528-3",
+                "OPTIONS": ["528", "Grand"],
+                "LBS": "11"
+            },
+            "95-748251538-3": {
+                "TITLE": "Grand D.E.L. Ottoman 538",
+                "COMPARE_AT_PRICE": "$725",
+                "PRICE": "$595",
+                "COST": "$265",
+                "SKU": "95-748251538-3",
+                "OPTIONS": ["538", "Grand"],
+                "LBS": "11"
+            }
+        },
+        "ADDITIONAL_INFO": {},
+        "SHIPPING": {}
+    }
+}

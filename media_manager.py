@@ -4,7 +4,7 @@ from media import Image, Video, Image360
 import re
 
 class MediaManager:
-    def __init__(self, media_folder_path):
+    def __init__(self, media_folder_path, variant_id = ""):
         self.product_media_map = {}
 
         def extract_number(filename):
