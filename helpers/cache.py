@@ -54,8 +54,6 @@ def fetch_id_from_image_metadata(image_path):
             return id_str
         else:
             print("No ID stored in the ImageDescription field.")
-    else:
-        print("No EXIF data found in the image.")
 
     return None
 

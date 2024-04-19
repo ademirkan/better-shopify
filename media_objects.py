@@ -146,8 +146,6 @@ class Video(Media):
         ## Cache
         embed_shopify_id_in_file(self.local_path, shopify_id)
         HOSTED_MEDIA_CACHE[shopify_id] = file_response
-        print("HERE FOR CACHE 2")
-        print(HOSTED_MEDIA_CACHE[shopify_id])
         with open("./cache/__hosted_media_cache.json", "w") as file:
             json.dump(HOSTED_MEDIA_CACHE, file)
 
@@ -213,3 +211,32 @@ class Image360(Media):
 
         self.hosted_images = processed_media_object
         return self.hosted_images
+    
+
+def process_file(path):
+    name = os.path.basename(path)
+    if os.path.isdir(path):
+        ## Load index.json 
+        index = {}
+        with open(os.path.join(path, 'index.json'), 'r') as file:
+            index = json.load(file)
+        
+        if not index:
+            return None
+        
+        media_type = index['mediaType']
+        match media_type:
+            case "360_IMG":
+                return Image360(path)
+            case _:
+                return None
+
+    elif os.path.isfile(path):
+        if name.lower().endswith(('.png', '.jpg', '.jpeg')):
+            return Image(path)
+        elif name.lower().endswith('.mp4'):
+            return Video(path)
+        else:
+            return None
+        
+    return None

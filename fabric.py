@@ -1,5 +1,5 @@
 import os
-from media import Image
+from media_objects import Image
 from media_manager import MediaManager
 
 

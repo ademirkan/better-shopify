@@ -121,6 +121,3 @@ for product_key in product_catalog:
         }
 
         update_variant_response = run_shopify_query(UPDATE_VARIANT_QUERY, variables)
-
-
-

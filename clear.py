@@ -4,9 +4,12 @@ import piexif
 import subprocess
 
 def clear_metadata_from_file(file_path):
-    if is_image_file(file_path):
+    image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp']
+    video_extensions = ['.mp4', '.avi', '.mov', '.wmv', '.flv']
+
+    if any(file_path.lower().endswith(ext) for ext in image_extensions):
         clear_image_metadata(file_path)
-    elif is_video_file(file_path):
+    elif any(file_path.lower().endswith(ext) for ext in video_extensions):
         clear_video_metadata(file_path)
     else:
         print(f"Unsupported file type for file {file_path}")
@@ -43,13 +46,6 @@ def clear_video_metadata(video_path):
         if os.path.exists(temp_video_path):
             os.remove(temp_video_path)
 
-def is_image_file(file_path):
-    image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp']
-    return any(file_path.lower().endswith(ext) for ext in image_extensions)
-
-def is_video_file(file_path):
-    video_extensions = ['.mp4', '.avi', '.mov', '.wmv', '.flv']
-    return any(file_path.lower().endswith(ext) for ext in video_extensions)
 
 def clear_metadata_in_directory(directory):
     for root, dirs, files in os.walk(directory):
@@ -58,5 +54,4 @@ def clear_metadata_in_directory(directory):
             clear_metadata_from_file(file_path)
 
 # Example usage: 
-# Replace 'path_to_directory' with the path to your directory
-clear_metadata_in_directory('1')
+clear_metadata_in_directory('/Users/arifd/Desktop/Code/Projects/LaContempo/shopify_db/Media/Test Cubed Media original')
